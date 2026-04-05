@@ -1,0 +1,6 @@
+framework module Pods_122BrelfligaCrorsarvan {
+  umbrella header "Pods-122BrelfligaCrorsarvan-umbrella.h"
+
+  export *
+  module * { export * }
+}

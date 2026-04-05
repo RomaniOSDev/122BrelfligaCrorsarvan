@@ -3,33 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		746A16FB2F8267A10076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A16F12F8267A10076A047 /* Assets.xcassets */; };
+		746A16FD2F8267A10076A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A16F52F8267A10076A047 /* LaunchScreen.storyboard */; };
+		746A16FE2F8267A10076A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A16F72F8267A10076A047 /* Main.storyboard */; };
+		746A16FF2F8267A10076A047 /* AppExternalURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16C42F8267A10076A047 /* AppExternalURL.swift */; };
+		746A17002F8267A10076A047 /* Gamification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16C62F8267A10076A047 /* Gamification.swift */; };
+		746A17012F8267A10076A047 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16C82F8267A10076A047 /* GameModels.swift */; };
+		746A17022F8267A10076A047 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16CA2F8267A10076A047 /* AppStorage.swift */; };
+		746A17032F8267A10076A047 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16CC2F8267A10076A047 /* AppColors.swift */; };
+		746A17042F8267A10076A047 /* VisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16CD2F8267A10076A047 /* VisualStyle.swift */; };
+		746A17052F8267A10076A047 /* ActivitiesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16D02F8267A10076A047 /* ActivitiesListView.swift */; };
+		746A17062F8267A10076A047 /* ColorDashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16D22F8267A10076A047 /* ColorDashView.swift */; };
+		746A17072F8267A10076A047 /* ColorDashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16D32F8267A10076A047 /* ColorDashViewModel.swift */; };
+		746A17082F8267A10076A047 /* SequenceQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16D52F8267A10076A047 /* SequenceQuestView.swift */; };
+		746A17092F8267A10076A047 /* SequenceQuestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16D62F8267A10076A047 /* SequenceQuestViewModel.swift */; };
+		746A170A2F8267A10076A047 /* ShapeShifterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16D82F8267A10076A047 /* ShapeShifterView.swift */; };
+		746A170B2F8267A10076A047 /* ShapeShifterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16D92F8267A10076A047 /* ShapeShifterViewModel.swift */; };
+		746A170C2F8267A10076A047 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16DC2F8267A10076A047 /* HomeView.swift */; };
+		746A170D2F8267A10076A047 /* GameLevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16DE2F8267A10076A047 /* GameLevelsView.swift */; };
+		746A170E2F8267A10076A047 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16E02F8267A10076A047 /* MainTabView.swift */; };
+		746A170F2F8267A10076A047 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16E22F8267A10076A047 /* OnboardingView.swift */; };
+		746A17102F8267A10076A047 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16E42F8267A10076A047 /* ProfileView.swift */; };
+		746A17112F8267A10076A047 /* GameResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16E62F8267A10076A047 /* GameResultView.swift */; };
+		746A17122F8267A10076A047 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16E82F8267A10076A047 /* SettingsView.swift */; };
+		746A17132F8267A10076A047 /* GamificationHeaderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16EB2F8267A10076A047 /* GamificationHeaderCard.swift */; };
+		746A17142F8267A10076A047 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16EC2F8267A10076A047 /* PrimaryButton.swift */; };
+		746A17152F8267A10076A047 /* ScrollScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16ED2F8267A10076A047 /* ScrollScreen.swift */; };
+		746A17162F8267A10076A047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16F02F8267A10076A047 /* AppDelegate.swift */; };
+		746A17172F8267A10076A047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16F22F8267A10076A047 /* ContentView.swift */; };
+		746A17182F8267A10076A047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16F82F8267A10076A047 /* SceneDelegate.swift */; };
+		746A17192F8267A10076A047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A16F92F8267A10076A047 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		58FE953D93293963694925EF /* Pods-122BrelfligaCrorsarvan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-122BrelfligaCrorsarvan.debug.xcconfig"; path = "Target Support Files/Pods-122BrelfligaCrorsarvan/Pods-122BrelfligaCrorsarvan.debug.xcconfig"; sourceTree = "<group>"; };
 		746A136D2F824BD10076A047 /* 122BrelfligaCrorsarvan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 122BrelfligaCrorsarvan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746A16C42F8267A10076A047 /* AppExternalURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalURL.swift; sourceTree = "<group>"; };
+		746A16C62F8267A10076A047 /* Gamification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamification.swift; sourceTree = "<group>"; };
+		746A16C82F8267A10076A047 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		746A16CA2F8267A10076A047 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		746A16CC2F8267A10076A047 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		746A16CD2F8267A10076A047 /* VisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualStyle.swift; sourceTree = "<group>"; };
+		746A16D02F8267A10076A047 /* ActivitiesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesListView.swift; sourceTree = "<group>"; };
+		746A16D22F8267A10076A047 /* ColorDashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDashView.swift; sourceTree = "<group>"; };
+		746A16D32F8267A10076A047 /* ColorDashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDashViewModel.swift; sourceTree = "<group>"; };
+		746A16D52F8267A10076A047 /* SequenceQuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceQuestView.swift; sourceTree = "<group>"; };
+		746A16D62F8267A10076A047 /* SequenceQuestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceQuestViewModel.swift; sourceTree = "<group>"; };
+		746A16D82F8267A10076A047 /* ShapeShifterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeShifterView.swift; sourceTree = "<group>"; };
+		746A16D92F8267A10076A047 /* ShapeShifterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeShifterViewModel.swift; sourceTree = "<group>"; };
+		746A16DC2F8267A10076A047 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		746A16DE2F8267A10076A047 /* GameLevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelsView.swift; sourceTree = "<group>"; };
+		746A16E02F8267A10076A047 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		746A16E22F8267A10076A047 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		746A16E42F8267A10076A047 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		746A16E62F8267A10076A047 /* GameResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultView.swift; sourceTree = "<group>"; };
+		746A16E82F8267A10076A047 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		746A16EB2F8267A10076A047 /* GamificationHeaderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamificationHeaderCard.swift; sourceTree = "<group>"; };
+		746A16EC2F8267A10076A047 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		746A16ED2F8267A10076A047 /* ScrollScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollScreen.swift; sourceTree = "<group>"; };
+		746A16F02F8267A10076A047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		746A16F12F8267A10076A047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746A16F22F8267A10076A047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		746A16F32F8267A10076A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746A16F42F8267A10076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746A16F62F8267A10076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746A16F82F8267A10076A047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		746A16F92F8267A10076A047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79C4F8DCBF520A69CE4852EC /* Pods-122BrelfligaCrorsarvan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-122BrelfligaCrorsarvan.release.xcconfig"; path = "Target Support Files/Pods-122BrelfligaCrorsarvan/Pods-122BrelfligaCrorsarvan.release.xcconfig"; sourceTree = "<group>"; };
+		AFC1BF37540E293C7791C9B2 /* Pods_122BrelfligaCrorsarvan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_122BrelfligaCrorsarvan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		746A137F2F824BD20076A047 /* Exceptions for "122BrelfligaCrorsarvan" folder in "122BrelfligaCrorsarvan" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 746A136C2F824BD10076A047 /* 122BrelfligaCrorsarvan */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		746A136F2F824BD10076A047 /* 122BrelfligaCrorsarvan */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				746A137F2F824BD20076A047 /* Exceptions for "122BrelfligaCrorsarvan" folder in "122BrelfligaCrorsarvan" target */,
-			);
-			path = 122BrelfligaCrorsarvan;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		746A136A2F824BD10076A047 /* Frameworks */ = {
@@ -45,8 +91,10 @@
 		746A13642F824BD10076A047 = {
 			isa = PBXGroup;
 			children = (
-				746A136F2F824BD10076A047 /* 122BrelfligaCrorsarvan */,
+				746A16FA2F8267A10076A047 /* 122BrelfligaCrorsarvan */,
 				746A136E2F824BD10076A047 /* Products */,
+				B848D44B356E91972FA8089B /* Pods */,
+				F64A13BBDCFA090F995608B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +106,229 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		746A16C52F8267A10076A047 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				746A16C42F8267A10076A047 /* AppExternalURL.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		746A16C72F8267A10076A047 /* Gamification */ = {
+			isa = PBXGroup;
+			children = (
+				746A16C62F8267A10076A047 /* Gamification.swift */,
+			);
+			path = Gamification;
+			sourceTree = "<group>";
+		};
+		746A16C92F8267A10076A047 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				746A16C82F8267A10076A047 /* GameModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		746A16CB2F8267A10076A047 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				746A16CA2F8267A10076A047 /* AppStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		746A16CE2F8267A10076A047 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				746A16CC2F8267A10076A047 /* AppColors.swift */,
+				746A16CD2F8267A10076A047 /* VisualStyle.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		746A16CF2F8267A10076A047 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				746A16C52F8267A10076A047 /* Config */,
+				746A16C72F8267A10076A047 /* Gamification */,
+				746A16C92F8267A10076A047 /* Models */,
+				746A16CB2F8267A10076A047 /* Storage */,
+				746A16CE2F8267A10076A047 /* Theme */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		746A16D12F8267A10076A047 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				746A16D02F8267A10076A047 /* ActivitiesListView.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		746A16D42F8267A10076A047 /* ColorDash */ = {
+			isa = PBXGroup;
+			children = (
+				746A16D22F8267A10076A047 /* ColorDashView.swift */,
+				746A16D32F8267A10076A047 /* ColorDashViewModel.swift */,
+			);
+			path = ColorDash;
+			sourceTree = "<group>";
+		};
+		746A16D72F8267A10076A047 /* SequenceQuest */ = {
+			isa = PBXGroup;
+			children = (
+				746A16D52F8267A10076A047 /* SequenceQuestView.swift */,
+				746A16D62F8267A10076A047 /* SequenceQuestViewModel.swift */,
+			);
+			path = SequenceQuest;
+			sourceTree = "<group>";
+		};
+		746A16DA2F8267A10076A047 /* ShapeShifter */ = {
+			isa = PBXGroup;
+			children = (
+				746A16D82F8267A10076A047 /* ShapeShifterView.swift */,
+				746A16D92F8267A10076A047 /* ShapeShifterViewModel.swift */,
+			);
+			path = ShapeShifter;
+			sourceTree = "<group>";
+		};
+		746A16DB2F8267A10076A047 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				746A16D42F8267A10076A047 /* ColorDash */,
+				746A16D72F8267A10076A047 /* SequenceQuest */,
+				746A16DA2F8267A10076A047 /* ShapeShifter */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		746A16DD2F8267A10076A047 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				746A16DC2F8267A10076A047 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		746A16DF2F8267A10076A047 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				746A16DE2F8267A10076A047 /* GameLevelsView.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		746A16E12F8267A10076A047 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				746A16E02F8267A10076A047 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		746A16E32F8267A10076A047 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				746A16E22F8267A10076A047 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		746A16E52F8267A10076A047 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				746A16E42F8267A10076A047 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		746A16E72F8267A10076A047 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				746A16E62F8267A10076A047 /* GameResultView.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		746A16E92F8267A10076A047 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				746A16E82F8267A10076A047 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		746A16EA2F8267A10076A047 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				746A16D12F8267A10076A047 /* Activities */,
+				746A16DB2F8267A10076A047 /* Games */,
+				746A16DD2F8267A10076A047 /* Home */,
+				746A16DF2F8267A10076A047 /* Levels */,
+				746A16E12F8267A10076A047 /* Main */,
+				746A16E32F8267A10076A047 /* Onboarding */,
+				746A16E52F8267A10076A047 /* Profile */,
+				746A16E72F8267A10076A047 /* Result */,
+				746A16E92F8267A10076A047 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		746A16EE2F8267A10076A047 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				746A16EB2F8267A10076A047 /* GamificationHeaderCard.swift */,
+				746A16EC2F8267A10076A047 /* PrimaryButton.swift */,
+				746A16ED2F8267A10076A047 /* ScrollScreen.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		746A16EF2F8267A10076A047 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				746A16EE2F8267A10076A047 /* Components */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		746A16FA2F8267A10076A047 /* 122BrelfligaCrorsarvan */ = {
+			isa = PBXGroup;
+			children = (
+				746A16CF2F8267A10076A047 /* Core */,
+				746A16EA2F8267A10076A047 /* Features */,
+				746A16EF2F8267A10076A047 /* Shared */,
+				746A16F02F8267A10076A047 /* AppDelegate.swift */,
+				746A16F12F8267A10076A047 /* Assets.xcassets */,
+				746A16F22F8267A10076A047 /* ContentView.swift */,
+				746A16F32F8267A10076A047 /* Info.plist */,
+				746A16F52F8267A10076A047 /* LaunchScreen.storyboard */,
+				746A16F72F8267A10076A047 /* Main.storyboard */,
+				746A16F82F8267A10076A047 /* SceneDelegate.swift */,
+				746A16F92F8267A10076A047 /* ViewController.swift */,
+			);
+			path = 122BrelfligaCrorsarvan;
+			sourceTree = "<group>";
+		};
+		B848D44B356E91972FA8089B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58FE953D93293963694925EF /* Pods-122BrelfligaCrorsarvan.debug.xcconfig */,
+				79C4F8DCBF520A69CE4852EC /* Pods-122BrelfligaCrorsarvan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F64A13BBDCFA090F995608B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFC1BF37540E293C7791C9B2 /* Pods_122BrelfligaCrorsarvan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +336,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 746A13802F824BD20076A047 /* Build configuration list for PBXNativeTarget "122BrelfligaCrorsarvan" */;
 			buildPhases = (
+				47CBFAAC38FF3CEFBB6C04B1 /* [CP] Check Pods Manifest.lock */,
 				746A13692F824BD10076A047 /* Sources */,
 				746A136A2F824BD10076A047 /* Frameworks */,
 				746A136B2F824BD10076A047 /* Resources */,
@@ -73,12 +345,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				746A136F2F824BD10076A047 /* 122BrelfligaCrorsarvan */,
-			);
 			name = 122BrelfligaCrorsarvan;
-			packageProductDependencies = (
-			);
 			productName = 122BrelfligaCrorsarvan;
 			productReference = 746A136D2F824BD10076A047 /* 122BrelfligaCrorsarvan.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +366,7 @@
 				};
 			};
 			buildConfigurationList = 746A13682F824BD10076A047 /* Build configuration list for PBXProject "122BrelfligaCrorsarvan" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +374,6 @@
 				Base,
 			);
 			mainGroup = 746A13642F824BD10076A047;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 746A136E2F824BD10076A047 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,81 +388,173 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A16FB2F8267A10076A047 /* Assets.xcassets in Resources */,
+				746A16FD2F8267A10076A047 /* LaunchScreen.storyboard in Resources */,
+				746A16FE2F8267A10076A047 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47CBFAAC38FF3CEFBB6C04B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-122BrelfligaCrorsarvan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		746A13692F824BD10076A047 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A16FF2F8267A10076A047 /* AppExternalURL.swift in Sources */,
+				746A17002F8267A10076A047 /* Gamification.swift in Sources */,
+				746A17012F8267A10076A047 /* GameModels.swift in Sources */,
+				746A17022F8267A10076A047 /* AppStorage.swift in Sources */,
+				746A17032F8267A10076A047 /* AppColors.swift in Sources */,
+				746A17042F8267A10076A047 /* VisualStyle.swift in Sources */,
+				746A17052F8267A10076A047 /* ActivitiesListView.swift in Sources */,
+				746A17062F8267A10076A047 /* ColorDashView.swift in Sources */,
+				746A17072F8267A10076A047 /* ColorDashViewModel.swift in Sources */,
+				746A17082F8267A10076A047 /* SequenceQuestView.swift in Sources */,
+				746A17092F8267A10076A047 /* SequenceQuestViewModel.swift in Sources */,
+				746A170A2F8267A10076A047 /* ShapeShifterView.swift in Sources */,
+				746A170B2F8267A10076A047 /* ShapeShifterViewModel.swift in Sources */,
+				746A170C2F8267A10076A047 /* HomeView.swift in Sources */,
+				746A170D2F8267A10076A047 /* GameLevelsView.swift in Sources */,
+				746A170E2F8267A10076A047 /* MainTabView.swift in Sources */,
+				746A170F2F8267A10076A047 /* OnboardingView.swift in Sources */,
+				746A17102F8267A10076A047 /* ProfileView.swift in Sources */,
+				746A17112F8267A10076A047 /* GameResultView.swift in Sources */,
+				746A17122F8267A10076A047 /* SettingsView.swift in Sources */,
+				746A17132F8267A10076A047 /* GamificationHeaderCard.swift in Sources */,
+				746A17142F8267A10076A047 /* PrimaryButton.swift in Sources */,
+				746A17152F8267A10076A047 /* ScrollScreen.swift in Sources */,
+				746A17162F8267A10076A047 /* AppDelegate.swift in Sources */,
+				746A17172F8267A10076A047 /* ContentView.swift in Sources */,
+				746A17182F8267A10076A047 /* SceneDelegate.swift in Sources */,
+				746A17192F8267A10076A047 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		746A16F52F8267A10076A047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746A16F42F8267A10076A047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		746A16F72F8267A10076A047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746A16F62F8267A10076A047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		746A13812F824BD20076A047 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FE953D93293963694925EF /* Pods-122BrelfligaCrorsarvan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 122BrelfligaCrorsarvan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Brelfliga Crorsarvan";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-22BrelfligaCrorsarvan";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mor.br2lf9g4cr0rs3r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		746A13822F824BD20076A047 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C4F8DCBF520A69CE4852EC /* Pods-122BrelfligaCrorsarvan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 122BrelfligaCrorsarvan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Brelfliga Crorsarvan";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-22BrelfligaCrorsarvan";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mor.br2lf9g4cr0rs3r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
